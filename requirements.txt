@@ -2,3 +2,9 @@ pandas
 numpy
 matplotlib
 openpyxl
+scipy
+pyarrow
+scikit-learn
+lightgbm
+catboost
+xgboost
