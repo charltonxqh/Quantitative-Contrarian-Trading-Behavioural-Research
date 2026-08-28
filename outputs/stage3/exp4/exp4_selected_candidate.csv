@@ -1,0 +1,2 @@
+experiment_name,experiment_description,model_name,quantile,threshold,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,n_campaigns,positive_campaigns,positive_campaign_share,median_campaign_profit_per_lot
+exp4,regression_without_sl_tp,huber,0.7,30.10181366589491,3832,0.30005481168271864,15.838294429995889,13.889702220142775,10,8,0.8,7.63574953610158

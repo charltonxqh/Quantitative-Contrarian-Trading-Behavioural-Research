@@ -1,0 +1,2 @@
+experiment_name,experiment_description,model_name,quantile,threshold,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,n_campaigns,positive_campaigns,positive_campaign_share,median_campaign_profit_per_lot
+exp7,two_stage_ev_full_development_data,catboost,0.9,71.9238319528485,1278,0.10007047216349542,33.19124375884938,62.502088271813975,10,9,0.9,78.78531159738297

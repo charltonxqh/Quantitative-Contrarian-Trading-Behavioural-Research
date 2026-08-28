@@ -1,0 +1,3 @@
+metric,bootstrap_mean,bootstrap_median,ci_lower,ci_upper,positive_bootstrap_share
+mean_reverse_profit_per_lot,-9.151753745528502,-9.567428551261106,-23.409971984855403,5.540106298927148,0.114
+total_reverse_profit_per_total_lot,-5.090377335531006,-5.349120547821491,-14.48933858155855,4.583893358508558,0.15

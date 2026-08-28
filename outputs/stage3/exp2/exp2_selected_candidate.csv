@@ -1,0 +1,2 @@
+experiment_name,experiment_description,quantile,threshold,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,model_name
+exp2,classification_stage2_screened_features,0.9,0.5852911544163423,616,0.10001623640201332,35.29495504495504,4.128583128583127,hist_gradient_boosting
