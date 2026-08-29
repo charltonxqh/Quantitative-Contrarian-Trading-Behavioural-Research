@@ -1,2 +1,0 @@
-experiment_name,experiment_description,quantile,threshold,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,model_name
-exp1,classification_with_reconstructed_sl_tp,0.7,0.5123226623899437,1848,0.30004870920603993,31.43078488971346,9.433259766688641,mlp
