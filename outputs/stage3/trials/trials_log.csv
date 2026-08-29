@@ -1,0 +1,18 @@
+experiment,description,formulation,feature_set,n_features,training_campaigns,n_model_variants,n_thresholds_per_model,notes,n_candidate_configurations,multiple_testing_method,multiple_testing_scope,family_alpha,adjusted_alpha,adjusted_confidence_level
+exp1,classification_full_features_with_sl_tp,classification,all_available_plus_predicted_sl_tp,44,43-52,9.0,3,Initial classification using full feature set and reconstructed SL/TP information.,27.0,not_applied,,,,
+exp2,classification_stage2_screened,classification,stage2_screened,2,43-52,9.0,3,Used only Stage 2 robust features.,27.0,not_applied,,,,
+exp3,classification_without_sl_tp,classification,all_base_features,40,33-52,9.0,3,Removed reconstructed SL/TP and recovered earlier campaigns.,27.0,not_applied,,,,
+exp4,regression_without_sl_tp,regression,all_base_features,40,33-52,11.0,3,Direct prediction of reverse_profit_per_lot.,33.0,not_applied,,,,
+exp5,two_stage_ev_with_sl_tp,two_stage_expected_value,base_plus_predicted_sl_tp_probabilities,42,43-52,,3,Two-stage EV formulation including reconstructed SL/TP probabilities.,,not_applied,,,,
+exp6,two_stage_ev_without_sl_tp,two_stage_expected_value,base_features,40,43-52,,3,Controlled comparison removing SL/TP probabilities.,,not_applied,,,,
+exp7,two_stage_ev_full_development,two_stage_expected_value,all_base_features,40,33-52,,3,Expanded EV training history to full development period.,,not_applied,,,,
+exp8a,two_stage_ev_feature_winsorization,two_stage_expected_value,all_base_features,40,33-52,,3,Feature winsorization fitted within each training fold.,,not_applied,,,,
+exp8b,two_stage_ev_target_clipping,two_stage_expected_value,all_base_features,40,33-52,,3,Conditional EV targets clipped using training-fold bounds.,,not_applied,,,,
+exp9,reduced_feature_two_stage_ev,two_stage_expected_value,reduced_correlated_features,22,33-52,,3,Reduced redundant features after correlation diagnostics.,,not_applied,,,,
+exp10a,reduced_feature_classification,classification,reduced_correlated_features,22,33-52,9.0,3,Controlled reduced-feature classification.,27.0,not_applied,,,,
+exp10b,reduced_feature_regression,regression,reduced_correlated_features,22,33-52,11.0,3,Strongest candidate; selected for frozen Stage 4 model.,33.0,bonferroni,exp10b_model_threshold_search,0.05,0.0015151515151515152,0.9984848484848485
+exp11a,reduced_regression_feature_winsorization,regression,reduced_correlated_features,22,33-52,11.0,3,Feature winsorization applied to reduced regression.,33.0,not_applied,,,,
+exp11b,reduced_regression_target_clipping,regression,reduced_correlated_features,22,33-52,11.0,3,Target clipping applied to reduced regression.,33.0,not_applied,,,,
+exp12,reduced_regression_signed_log_target,regression,reduced_correlated_features,22,33-52,11.0,3,Signed-log transformation of reverse_profit_per_lot.,33.0,not_applied,,,,
+exp13,reduced_feature_quantile_regression,quantile_regression,reduced_correlated_features,22,33-52,12.0,3,"Quantile objectives at q10, q25 and q50.",36.0,not_applied,,,,
+exp14,reduced_feature_neural_network,neural_network_regression,reduced_correlated_features,22,33-52,2.0,3,Small MLP; MSE and Huber losses compared. Huber selected.,6.0,not_applied,,,,

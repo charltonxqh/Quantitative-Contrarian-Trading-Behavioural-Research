@@ -1,0 +1,43 @@
+{
+    "experiment": "exp10b",
+    "description": "reduced_feature_regression",
+    "model_type": "lightgbm",
+    "target": "reverse_profit_per_lot",
+    "score_column": "predicted_reverse_profit_per_lot",
+    "feature_columns": [
+        "post_loss_entry",
+        "post_loss_reentry_gap_minutes",
+        "post_loss_amount_ratio",
+        "past_trade_open_count",
+        "elapsed_active_hours",
+        "past_trades_opened_per_active_hour",
+        "trades_opened_past_30_minutes",
+        "minutes_since_previous_trade_open",
+        "past_median_trade_open_gap_minutes",
+        "trade_open_gap_to_past_median_ratio",
+        "minutes_since_previous_idea_start",
+        "past_median_idea_start_gap_minutes",
+        "idea_start_gap_to_past_median_ratio",
+        "realized_distance_to_drawdown_limit",
+        "historical_median_amount_before_trade",
+        "current_to_historical_median_amount_ratio",
+        "past_amount_cv",
+        "past_completed_idea_count",
+        "past_idea_win_rate",
+        "past_mean_win_profit_per_lot",
+        "past_mean_loss_abs_profit_per_lot",
+        "past_payoff_ratio"
+    ],
+    "n_features": 22,
+    "training_campaign_max": 52,
+    "selection_quantile": 0.9,
+    "decision_threshold": 85.102037,
+    "decision_rule": "fade if predicted_reverse_profit_per_lot >= decision_threshold",
+    "random_seed": 42,
+    "lightgbm_parameters": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "num_leaves": 15,
+        "random_state": 42
+    }
+}
