@@ -1,2 +1,0 @@
-experiment_name,experiment_description,model_name,quantile,threshold,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,n_campaigns,positive_campaigns,positive_campaign_share,median_campaign_profit_per_lot
-exp11a,reduced_regression_feature_winsorization,random_forest,0.9,29.738570369097392,1278,0.10007047216349542,29.611964378865792,39.75112763623064,10,8,0.8,103.70665391320225

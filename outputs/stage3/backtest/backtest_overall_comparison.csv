@@ -1,4 +1,0 @@
-name,n_trades,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,positive_campaign_share,median_campaign_profit_per_lot
-do_nothing,21355,0.0,0.0,0.0,0.0,0.0,0.0
-fade_everything,21355,21355.0,1.0,-3.9042573701403507,-3.586678586598528,0.5,-1.7776439517056621
-frozen_reduced_feature_regression,21355,2065.0,0.0966986654179349,25.74081786386871,16.32231453656237,0.6428571428571429,19.472722232349007

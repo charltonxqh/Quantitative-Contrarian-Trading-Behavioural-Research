@@ -1,2 +1,0 @@
-experiment_name,experiment_description,loss_name,selection_quantile,threshold,n_faded,coverage,mean_reverse_profit_per_lot,total_reverse_profit_per_total_lot,n_campaigns,positive_campaigns,positive_campaign_share,median_campaign_profit_per_lot
-exp14,reduced_feature_neural_network_regression,huber,0.9,75.441162109375,1278,0.10007047216349542,77.96883184629664,34.885025883555954,10,7,0.7,33.42374943135292

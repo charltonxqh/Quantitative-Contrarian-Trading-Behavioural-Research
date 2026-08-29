@@ -1,3 +1,0 @@
-name,metric,bootstrap_mean,bootstrap_median,ci_lower,ci_upper,positive_bootstrap_share
-frozen_reduced_feature_regression,mean_reverse_profit_per_lot,27.2407435076629,27.46766917812,-39.951786327398715,91.73546885512954,0.91
-frozen_reduced_feature_regression,total_reverse_profit_per_total_lot,16.93960386636501,17.155409754862973,-34.528015955172464,58.09199003920999,0.889

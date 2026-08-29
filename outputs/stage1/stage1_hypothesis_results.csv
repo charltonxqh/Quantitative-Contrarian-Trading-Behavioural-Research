@@ -1,6 +1,0 @@
-feature,profitable_n,unprofitable_n,profitable_median,unprofitable_median,median_difference,u_statistic,p_value,rank_biserial,adjusted_alpha,reject_null,hypothesis,analysis_level
-Log maximum losing-to-profitable idea duration ratio,1372,2570,-0.8584539742395371,0.4981052682897151,-1.356559242529252,805104.0,2.9704480646391775e-174,-0.543338135698971,0.05,True,Maximum idea holding duration,Idea
-Log maximum losing-to-profitable trade duration ratio,1615,3036,-0.9930598528484813,0.5261524841973537,-1.519212337045835,1067721.0,4.2111635749067495e-221,-0.5644746019897453,0.05,True,Maximum trade holding duration,Trade
-Trades per active hour,2703,5462,1.3167520117044622,2.2790220482002552,-0.962270036495793,5974921.0,9.262972689041179e-45,-0.19059772337529135,0.025,True,Trading intensity,Account-campaign
-Ideas per active hour,2703,5462,1.023395968956989,1.767807441548539,-0.74441147259155,5901162.0,2.19374886094279e-49,-0.20058960486151722,0.025,True,Trading intensity,Account-campaign
-Median direction-switch waiting time,1671,2846,6.6,3.8208333333333333,2.7791666666666663,2709388.5,4.668358570464776e-15,0.13943599066881474,0.05,True,Direction-switching waiting time,Account-campaign
