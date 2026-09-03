@@ -221,3 +221,5 @@ __marimo__/
 data/
 project_docs/
 outputs/
+materials/
+catboost_info/
